@@ -1,0 +1,20 @@
+body{
+    font-size: 1.3em;
+    background: burlywood;
+}
+div{
+    display: inline-block;
+    margin: 15px;
+}
+h3{
+    color:darkcyan;
+    text-align: center;
+}
+table{
+    margin: 10px auto;
+}
+th{
+    border: 1px solid cornflowerblue;
+    padding: 20px 5px;   
+}
+
