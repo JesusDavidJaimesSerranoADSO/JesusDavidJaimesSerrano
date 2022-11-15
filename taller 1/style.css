@@ -3,11 +3,14 @@ body{
     background: rgb(226, 204, 175);
 }
 h3{
-    color:darkcyan;
-    text-align: center;
+    margin: 5px
 }
-.cont{
-    display: inline-block;
+.medio{
+    width: 410px;
+    height: 70px;
+    padding: 5px;
+    border: 1px solid yellowgreen;
+    display: block;
 }
 [name="temp"]{
     margin: 5px 5px;
@@ -16,7 +19,7 @@ h3{
     height: 30px;
 }
 [type="submit"]{
-    display: inline-block;
+    display: block;
     margin: 10px 5px;
     width: 100px;
     height: 40px;
@@ -26,4 +29,7 @@ h3{
     width: 425px;
     height: 50px;
     background: white;
+}
+.unidad{
+    display: inline-block;
 }

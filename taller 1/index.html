@@ -13,12 +13,20 @@
     <h2> Se desea elaborar un algoritmo que permita identificar la cantidad de dólares equivalentes a una cantidad 
         de pesos colombianos.</h2>
     <form id="myform">
-        <input type="text" name="temp">
-        <div class="cont">
-            <label>centigrados</label>
-            <input type="radio" name="selet" value="cen">
-            <label>Fahrenheit</label>
-            <input type="radio" name="selet" value="fat">
+        <div class="medio">
+            <h3>medio de transporte</h3>
+            <label>carro</label>
+            <input type="radio" name="selet" value="kmc">
+            <label>moto</label>
+            <input type="radio" name="selet" value="kmm"> 
+        </div>
+        <label>distancia recorrrida</label>
+        <input type="text" name="dis">
+        <div class="unidad">
+            <label>kilometros</label>
+            <input type="radio" name="selet" value="km">
+            <label>metros</label>
+            <input type="radio" name="selet" value="km"> 
         </div>
         <input type="submit" value="convertir">
     </form>
