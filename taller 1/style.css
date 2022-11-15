@@ -9,7 +9,7 @@ h3{
 .cont{
     display: inline-block;
 }
-[name="moneda"]{
+[name="temp"]{
     margin: 5px 5px;
     display: block;
     width: 410px;

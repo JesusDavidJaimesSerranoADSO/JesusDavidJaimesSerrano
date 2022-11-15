@@ -1,15 +1,15 @@
 addEventListener("DOMContentLoaded",e=>{
     let opcion = document.querySelector('.cont');
-    let valor = document.querySelector('[name="moneda"]')
+    let valor = document.querySelector('[name="temp"]')
     let rest = 0
     
     opcion.addEventListener("change", (e)=>{
         let seleccion = e.target.value
-            if( seleccion == "pad"){
-            rest = valor.value / 4800
+            if( seleccion == "cen"){
+            rest = (valor.value * 9/5) + 32 
         }
         else{
-            rest = valor.value * 4800
+            rest = (valor.value - 32 ) * 5/9
         }
     })
     
