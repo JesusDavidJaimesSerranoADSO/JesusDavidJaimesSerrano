@@ -8,58 +8,66 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Evidencia de conocimiento</h1>
-    <h2>realizacion de la formula</h2>
-    <div>
-        <h3>(2 * 5) < 8 OR ((4 * 6) > (2 * 5) )</h3>
+    <h1>Tabla de verdades</h1>
+    <h2>Construir la tabla de verdad para las siguientes expresiones: </h2>
+    <div class="verdad">
+        <h3>tabla de ( P ∧ Q) </h3>
         <table>
             <tr>
-                <th>(2 * 5) < 8</th>
-                <th class="OR">OR</th>
-                <th>((4 * 6) > (2 * 5) )</th>
+                <th>true</th>
+                <th> and </th>
+                <th>true</th>
+                <th>true</th>
             </tr>
             <tr>
-                <th>10 < 8</th>
-                <th class="OR">OR</th>
-                <th>24 > 10 </th>
+                <th>true</th>
+                <th> and </th>
+                <th>false</th>
+                <th>false</th>
             </tr>
             <tr>
                 <th>false</th>
-                <th class="OR">OR</th>
-                <th>true </th>
-            </tr>
-            <tr>
-                <th colspan="3">true</th> 
-            </tr>
-        </table>
-    </div>
-    <div>
-        <h3>(4 + 5) < 3 AND ( ( 5 * 5 ) + (4 + 25 < 3) ) </h3>
-        <table>
-            <tr>
-                <th>(4+ 5) < 3</th>
-                <th class="OR">AND</th>
-                <th>( ( 5 * 5) + (4 + 25 < 3) )</th>
-            </tr>
-            <tr>
-                <th>9 < 3</th>
-                <th class="OR">AND</th>
-                <th> 25 + (29 < 3) </th>
-            </tr>
-            <tr>
-                <th>9 < 3</th>
-                <th class="OR">AND</th>
-                <th> 54 < 3 </th>
+                <th> and </th>
+                <th>true</th>
+                <th>false</th>
             </tr>
             <tr>
                 <th>false</th>
-                <th class="OR">OR</th>
-                <th>true </th>
-            </tr>
-            <tr>
-                <th colspan="3">false</th> 
+                <th> and </th>
+                <th>false</th>
+                <th>false</th>
             </tr>
         </table>
     </div>
+    <div class="falso">
+        <h3>tabla de ( P ∨ Q)  </h3>
+        <table>
+            <tr>
+                <th>true</th>
+                <th> or </th>
+                <th>true</th>
+                <th>true</th>
+            </tr>
+            <tr>
+                <th>true</th>
+                <th> or </th>
+                <th>false</th>
+                <th>true</th>
+            <tr>
+                <th>false</th>
+                <th> or </th>
+                <th>true</th>
+                <th>true</th>
+            </tr>
+            <tr>
+                <th>false</th>
+                <th> and </th>
+                <th>false</th>
+                <th>false</th>
+            </tr>
+        </tr>
+    </table>
+    </div>
+        
 </body>
 </html>
