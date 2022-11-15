@@ -5,69 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
     <title>Document</title>
 </head>
 <body>
-    <h1>Tabla de verdades</h1>
-    <h2>Construir la tabla de verdad para las siguientes expresiones: </h2>
-    <div class="verdad">
-        <h3>tabla de ( P ∧ Q) </h3>
-        <table>
-            <tr>
-                <th>true</th>
-                <th> and </th>
-                <th>true</th>
-                <th>true</th>
-            </tr>
-            <tr>
-                <th>true</th>
-                <th> and </th>
-                <th>false</th>
-                <th>false</th>
-            </tr>
-            <tr>
-                <th>false</th>
-                <th> and </th>
-                <th>true</th>
-                <th>false</th>
-            </tr>
-            <tr>
-                <th>false</th>
-                <th> and </th>
-                <th>false</th>
-                <th>false</th>
-            </tr>
-        </table>
+    <h1>Convertidor moneda</h1>
+    <h2> Se desea elaborar un algoritmo que permita identificar la cantidad de dólares equivalentes a una cantidad 
+        de pesos colombianos.</h2>
+    <form id="myform">
+        <input type="text" name="moneda">
+        <div class="cont">
+        <label>pesos a dolares</label>
+            <input type="radio" name="selet" value="pad">
+            <label>dolares a pesos</label>
+            <input type="radio" name="selet" value="dap">
+        </div>
+        <input type="submit" value="convertir">
+    </form>
+    <div class="rest">
+
     </div>
-    <div class="falso">
-        <h3>tabla de ( P ∨ Q)  </h3>
-        <table>
-            <tr>
-                <th>true</th>
-                <th> or </th>
-                <th>true</th>
-                <th>true</th>
-            </tr>
-            <tr>
-                <th>true</th>
-                <th> or </th>
-                <th>false</th>
-                <th>true</th>
-            <tr>
-                <th>false</th>
-                <th> or </th>
-                <th>true</th>
-                <th>true</th>
-            </tr>
-            <tr>
-                <th>false</th>
-                <th> and </th>
-                <th>false</th>
-                <th>false</th>
-            </tr>
-        </tr>
-    </table>
-    </div>
-        
 </body>
 </html>

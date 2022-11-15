@@ -6,21 +6,24 @@ h3{
     color:darkcyan;
     text-align: center;
 }
-.verdad{
+.cont{
     display: inline-block;
-    margin: 10px 2em;
-}   
-    
-
-.falso{
+}
+[name="moneda"]{
+    margin: 5px 5px;
+    display: block;
+    width: 410px;
+    height: 30px;
+}
+[type="submit"]{
     display: inline-block;
-    margin: 10px auto;
+    margin: 10px 5px;
+    width: 100px;
+    height: 40px;
 }
-
-th{
-    border: 1px solid cornflowerblue;
-    padding: 20px 5px;   
-}
-th:nth-child(2){
-    color: crimson;
+.rest{
+    display: block;
+    width: 425px;
+    height: 50px;
+    background: white;
 }
