@@ -1,33 +1,32 @@
 addEventListener("DOMContentLoaded",e=>{
-    let opcion = document.querySelector('.medio');
-    let dist = document.querySelector('[name="dis"]')
-    let calcular = 0
-    let rest = 0
+    let und = document.querySelector('.unidad_arroz');
+    let more = document.querySelector('.add')
+    let cant_arroz = document.querySelector('[name="arroz"]')
+    let prep = 0
+    let add = ""
     
-    opcion.addEventListener("change", (e)=>{
+    und.addEventListener("change", (e)=>{
         let seleccion = e.target.value
-            if( seleccion == "kmc"){
-            rest = 40
-        }
-        else{
-            rest = 60
-        }
+            if( seleccion == "kg"){
+                prep = cant_arroz.value * 1000
+                console.log(prep)
+            }
+            else{
+                prep = cant_arroz.value
+            }
     })
     
-    
-    let unidad = document.querySelector('.unidad')
-    unidad.addEventListener("change", (e)=>{
+    more.addEventListener("change", (e)=>{
         let seleccion = e.target.value
-        if( seleccion == "km"){
-            calcular = (dist.value / rest) * 60
+        if( seleccion == "pollo"){
+            add = seleccion
+        }else if (seleccion == "verduras"){
+            add = seleccion
+        }else{
+            add = seleccion
         }
-        else{
-            calcular = ((dist.value / 100) / rest) * 60
-        }
-        
-        alert(calcular)
     })
-
+    let calcular = 50 * prep
     let myform = document.querySelector("#myform");
 
     myform.addEventListener("submit", (e)=>{

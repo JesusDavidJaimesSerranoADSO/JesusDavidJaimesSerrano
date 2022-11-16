@@ -5,34 +5,20 @@ body{
 h3{
     margin: 5px
 }
-.medio{
-    width: 410px;
-    height: 70px;
-    padding: 5px;
-
-    display: block;
+.unidad_arroz{
+    display: inline-block;
+    margin: 15px 5px;
 }
-[name="temp"]{
-    margin: 5px 5px;
-    display: block;
-    width: 410px;
-    height: 30px;
-}
-[type="submit"]{
-    display: block;
-    margin: 10px 5px;
-    width: 100px;
-    height: 40px;
-}
-.rest{
-    display: block;
-    width: 425px;
-    min-height: 50px;
-    background: white;
-}
-.unidad{
+[type="checkbox"]{
     display: inline-block;
 }
-p{
-    margin: 15px;
+[type="submit"]{
+    display: inline-block;
+}
+.add{
+    display: inline-block;
+}
+.rest{
+    min-height: 15px;
+    background: white;
 }
