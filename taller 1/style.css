@@ -9,7 +9,7 @@ h3{
     width: 410px;
     height: 70px;
     padding: 5px;
-    border: 1px solid yellowgreen;
+
     display: block;
 }
 [name="temp"]{
@@ -27,9 +27,12 @@ h3{
 .rest{
     display: block;
     width: 425px;
-    height: 50px;
+    min-height: 50px;
     background: white;
 }
 .unidad{
     display: inline-block;
+}
+p{
+    margin: 15px;
 }
