@@ -1,0 +1,23 @@
+body{
+    margin: 5px;
+}
+.inicio{
+    display: block;
+    width: max-content;
+    padding: 5px;
+    margin: 5px;
+    background: rgb(141, 141, 141);
+}
+[name="dia"]{
+    width: 30px;
+}
+[name="year"]{
+    width: 50px;
+}
+[type="submit"]{
+    margin: 5px;
+    width: 207px;
+}
+.rest{
+    background: rgb(194, 188, 188);
+}
